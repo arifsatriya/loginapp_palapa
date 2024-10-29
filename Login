@@ -50,7 +50,7 @@ const style = StyleSheet.create({
   
   signupTextCont : {
     
-    flexGrow : 1, alignItem : 'flex-end', justifyContent : 'center'
+    flexGrow : 1, alignItem : 'flex-end', justifyContent : 'center',
     paddingVertical : 16, flexDirection : 'row'
   },
   
