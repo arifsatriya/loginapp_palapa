@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 
 import { Router, Stack, Scene } from 'react-native-router-flux';
 
-import Login from '../pages/Login';
+import Login from '../Pages/Login';
 
-import Signup from '../pages/Signup';
+import Signup from '../Pages/Signup';
 
 export default class Routes extends Component <{}> {
   
