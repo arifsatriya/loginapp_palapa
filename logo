@@ -13,7 +13,7 @@ import {
 
 } from 'react-native';
 
-export default class logo extends Component <()> {
+export default class logo extends Component <{}> {
   
   render(){
     
