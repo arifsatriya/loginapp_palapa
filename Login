@@ -11,11 +11,11 @@ import Form from '../components/Form';
 
 import {Actions} from 'react-native-router-flux';
 
-export default class Login extends Component <{}> {
+export default class Login extends Component  {
   
   signup(){
     
-    Action.signup()
+    Actions.signup()
   }
   
   render(){
@@ -30,11 +30,11 @@ export default class Login extends Component <{}> {
     
   <View style = {style.signupTextCont}>
     
-  <Text style = {styles.signupText}> Anda Belum Punya Akun ? </Text>
+  <Text style = {style.signupText}> Anda Belum Punya Akun ? </Text>
     
   <TouchableOpacity onPress = {this.signup}>
     
-  <Text style = {styles.signupButton}> Signup </Text></TouchableOpacity>
+  <Text style = {style.signupButton}> Signup </Text></TouchableOpacity>
     
   </View></View>  
   )
@@ -64,4 +64,3 @@ const style = StyleSheet.create({
     color : '#ffffff', fontsize : 16, fontweight : '500'
   }
 });
-
