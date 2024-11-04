@@ -10,15 +10,9 @@ StatusBar
 
 } from 'react-native';
 
+import Routes from '../src/Router';
 
-
-
-
-import Routes from './src/Router';
-
-
-
-export default class App extends Component<{}> {
+export default class App extends Component {
 
 render() {
 
@@ -34,7 +28,7 @@ barStyle="light-content"
 
 />
 
-<Router/>
+<Routes/>
 
 </View>
 
