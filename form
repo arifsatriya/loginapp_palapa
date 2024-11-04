@@ -13,7 +13,7 @@ import {
 
 } from 'react-native';
 
-export default class Logo extends Component <{}> {
+export default class Logo extends Component  {
   
   render(){
     
@@ -21,7 +21,7 @@ export default class Logo extends Component <{}> {
     
       <View style = {style.container}>
       
-      <Textinput style = {style.inputBox} 
+      <TextInput style = {style.inputBox} 
       underlineColorAndroid = 'rgba(0,0,0,0)'
       placeholder = "Email"
       placeholderTextColor = "#ffffff"
@@ -30,7 +30,7 @@ export default class Logo extends Component <{}> {
       onSubmitEditing = {()=> this.password.focus()}
       />
       
-      <Textinput style = {style.inputBox}
+      <TextInput style = {style.inputBox}
       underlineColorAndroid = 'rgba(0,0,0,0)'
       placeholder = "Password"
       secureTextEntry = {true}
